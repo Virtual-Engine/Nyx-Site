@@ -1,4 +1,4 @@
 # Nyx-Site
 
 
-- Nyx site is dev site
+- Nyx site is social, dev site
