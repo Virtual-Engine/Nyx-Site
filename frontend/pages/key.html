@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Clé</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        #key {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: inline-block;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clé Générée</h1>
+    <div id="key">Génération de la clé...</div>
+
+    <script>
+        fetch('http://localhost:3000/api/key')
+            .then(response => response.text())
+            .then(key => {
+                document.getElementById('key').innerText = key;
+            })
+            .catch(error => console.error('Erreur:', error));
+    </script>
+</body>
+</html>

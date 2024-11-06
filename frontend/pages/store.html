@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="theme-color" content="#00B6FF">
+    <meta property="og:title" content="Nyx">
+    <meta property="og:url" content="https://nyxcheats.xyz/">
+
+    <link rel="stylesheet" href="../../backend/asset/css/min.css">
+    <link rel="stylesheet" href="../../backend/asset/css/style.css">
+
+    <script type="text/javascript" src="../../backend/asset/js/query.js"></script>
+
+    <title>Nyx Cheats</title>
+    <style>
+        @font-face {
+            font-family: 'Quantum';
+            src: url('asset/font/quantum.otf') format('truetype');
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .title h1 {
+            font-family: 'Quantum', sans-serif;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex: 1;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .product {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #ffffff;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-sizing: border-box;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <video class="video-background" autoplay muted loop>
+        <source src="../../backend/asset/video/font.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la vidéo HTML5.
+    </video>
+
+    <header>
+        <div class="title">
+            <h1>Store</h1>
+        </div>
+        <nav>
+            <section class="products">
+                <div class="product">
+                    <img src="../../backend/asset/image/product.png" alt="Product 1">
+                    <h2>Virtual X</h2>
+                    <p>10€</p>
+                    <button class="link" onclick="window.location.href='https://www.youtube.com/@nyxcheats'">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img src="../../backend/asset/image/product.png" alt="Product 2">
+                    <h2>Virtual X</h2>
+                    <p>20€</p>
+                    <button class="link" onclick="window.location.href='https://www.youtube.com/@nyxcheats'">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <div class="music-management">
+        <button id="volume"><i class="fa fa-volume-up"></i></button>
+    </div>
+    <footer>
+        <a href="frontend/pages/mods.html">Nyx Mods</a>
+    </footer>
+    <script type="text/javascript" src="../../backend/asset/js/fluid.js"></script>
+    <script type="text/javascript" src="../../backend/asset/js/app.js"></script>
+</body>
+
+</html>

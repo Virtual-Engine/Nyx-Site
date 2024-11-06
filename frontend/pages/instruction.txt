@@ -1,0 +1,29 @@
+This is Virtual X, an old GTA Online menu mod that was discontinued in March, so I've updated it to be for story mode only. 
+
+- To be able to play with it, you need to deactivate Batle Eye in the rockstar launcher settings.
+
+- to inject the in-game menu, open the extreme injector provided in the download pack
+and launch GTAV click on select next to process name click on windows list and click on select and then press inject. 
+
+- The menu is controlled with these keys
+
+- Open F5
+- Scroll Up Arrow Up
+- Scroll Down Arrow DOwn
+- Value RIght Arrow Right
+- Value Left Arrow Left
+- Main Tab E
+- Spawner Tab E
+
+I would like to remind you that this Mod is only for the History Mod. If you try to go into GTA Online you risk getting banned but the menu has a protection the menu will deactivate.
+
+Developer: : Nyx
+Discord : https://discord.gg/2D3PEnJhe8
+
+- Script Hook V 
+
+The menu is able to load any ASI you'll just need to download the ScriptHookV dll provided on one of my sites here : 
+
+and place it at the root of the Virtual X folder in your documents.
+
+Good Games
